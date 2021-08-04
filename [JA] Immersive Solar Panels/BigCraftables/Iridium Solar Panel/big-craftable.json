@@ -1,0 +1,32 @@
+{
+  "Name": "Iridium Solar Panel",
+	"Description": "Quickly generates batteries when left in the sun.",
+	"ProvidesLight": false,
+
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 338,
+				"Count": 10,
+			},
+			{
+				"Object": 336,
+				"Count": 7,
+			},
+			{
+				"Object": 337,
+				"Count": 1,
+			}, ],
+    "IsDefault": false,
+		"CanPurchase": true,
+		"PurchaseFrom": "Krobus",
+		"PurchasePrice": 12500,
+		"PurchaseRequirements": null,
+},
+  "NameLocalization":
+ { "zh": "铱太阳能电池板", },
+ "DescriptionLocalization":
+ { "zh": "在阳光下放置时，能快速产生电池。", }
+}

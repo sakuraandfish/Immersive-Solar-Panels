@@ -1,0 +1,36 @@
+{
+  "Name": "Radioactive Solar Panel",
+	"Description": "Very quickly generates batteries when left in the sun.",
+	"ProvidesLight": false,
+
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+			{
+				"Object": 338,
+				"Count": 15,
+			},
+			{
+				"Object": 337,
+				"Count": 3,
+			},
+			{
+				"Object": 910,
+				"Count": 1,
+			}, ],
+		"IsDefault": false,
+		"CanPurchase": true,
+		"PurchaseFrom": "Krobus",
+		"PurchasePrice": 30000,
+		"PurchaseRequirements": null,
+    },
+  "NameLocalization":
+ {
+     "zh": "放射性太阳能电池板",
+ },
+ "DescriptionLocalization":
+ {
+     "zh": "电池在阳光下很快就能产生。",
+ }
+}
